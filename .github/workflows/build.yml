@@ -25,7 +25,7 @@ jobs:
       run: go build -o CloudflareWarpSpeedTest -v ./...
     
     - name: Upload buildfile
-        uses: actions/upload-artifact@v4
-        with:
-          name: CloudflareWarpSpeedTest
-          path: CloudflareWarpSpeedTest
+      uses: actions/upload-artifact@v4
+      with:
+        name: CloudflareWarpSpeedTest
+        path: CloudflareWarpSpeedTest
